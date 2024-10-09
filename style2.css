@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+
+main {
+    .box-contener{
+        height: 220px;
+        width: 200px;
+        background-color: rgb(255, 255, 255);
+
+        .box{
+            height: 250px;
+            width: 250px;
+            padding: 5px;
+            background-color: rgb(99, 112, 111);
+            border: 6px solid;
+            margin: auto ;
+            border-radius: 20%;
+            text-align: center;
+            background: url(images/pic.jpg);
+
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            h2 {
+               color: aqua;
+            }
+
+            form{
+                input{
+                    text-align: center;
+                }
+            }
+            button {
+                border-radius: 20px;
+                margin-top: 10px;
+                padding: 5px;
+                background-color: bisque;
+
+            }
+
+
+        }
+    }
+    .rendom{
+        height: 220px;
+        width: 200px;
+        background-color: rgb(11, 65, 50);
+        border: 1px solid;
+    }
+ }

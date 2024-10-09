@@ -1,0 +1,50 @@
+header
+{
+    background-color: rgb(89, 197, 104);
+    color: rgb(110, 172, 29);
+    img{
+        height: 50px;
+        width: 50px;
+        aspect-ratio: 1/1;
+        object-fit: cover;
+    }
+    nav {
+        display: inline;
+    }
+}
+
+p.abc {
+    background-color: rgb(0, 0, 0);
+
+    color: white;
+   
+     font-style: italic;
+    height: 100px;
+    width: 100px;
+
+    border: 5px solid rgb(41, 197, 116);
+    border-radius: 20px;
+}
+    img {
+        aspect-ratio: 1/1;
+        object-fit: cover;
+        width: 50px;
+    }
+
+ main {
+    .box-contener{
+        height: 220px;
+        width: 200px;
+        background-color: rgb(18, 115, 87);
+
+        .box{
+            height: 100px;
+            width: 100px;
+            padding: 5px;
+            background-color: rgb(61, 156, 150);
+            border: 6px solid;
+            margin: auto ;
+
+        }
+    }
+ }
